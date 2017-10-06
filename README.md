@@ -2,7 +2,7 @@
 
 Five tags：array，string，tree，linkedlist，math
 
-## DataStructure
+## DataStructure/Algorithms
 [1. Linked List](#1)
 
 [2. String](#2) 
@@ -23,7 +23,6 @@ Five tags：array，string，tree，linkedlist，math
 
 [10. Binary Search Tree](#10) 
 
-## Algorithms
 [11. Sort](#11)
 
 [12. Math](#12) 
@@ -55,22 +54,22 @@ Five tags：array，string，tree，linkedlist，math
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #6	 | [Merge Two Sorted Arrays/合并排序数组](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java | 2017/10/5   | Easy ||
 
 <h2 id="4">4. Hash Table</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Two Sum/两数之和](http://www.lintcode.com/en/problem/two-sum/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="5">5. Stack</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #227	 | [Mock Hanoi Tower by Stacks/	用栈模拟汉诺塔问题](http://www.lintcode.com/en/problem/mock-hanoi-tower-by-stacks/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="6">6. Queue</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | Java       | 2017/10/5   | Easy ||
