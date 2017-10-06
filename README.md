@@ -24,17 +24,17 @@ Five tags：array，string，tree，linkedlist，math
 [10. Binary Search Tree](#10) 
 
 ## Algorithms
-[11. Sort](#1)
+[11. Sort](#11)
 
-[12. Math](#2) 
+[12. Math](#12) 
 
-[13. BitManipulation](#3) 
+[13. BitManipulation](#13) 
 
-[14. Dynamic Programming](#4)
+[14. Dynamic Programming](#14)
 
-[15. Depth-first Search](#5)
+[15. Depth-first Search](#15)
 
-[16. Breadth-first Search](#6)
+[16. Breadth-first Search](#16)
 
 
 ## DataStructure
