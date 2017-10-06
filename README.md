@@ -42,35 +42,35 @@ Five tags：array，string，tree，linkedlist，math
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
 
 
 <h2 id="2">2. String</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #8	 | [Rotate String/旋转字符串](http://www.lintcode.com/en/problem/rotate-string/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="3">3. Array</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="4">4. Hash Table</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="5">5. Stack</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="6">6. Queue</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
