@@ -1,6 +1,7 @@
 # [LintCode](http://www.lintcode.com)  ![](https://img.shields.io/badge/language-Java-blue.svg) ![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
 
-Five tags：array，string，tree，linkedlist，math
+The First Time: coding by tags
+The Second Time： coding by the Question No.
 
 ## DataStructure/Algorithms
 [1. Linked List](#1)
