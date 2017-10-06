@@ -39,9 +39,8 @@ Five tags：array，string，tree，linkedlist，math
 
 ## DataStructure
 <h2 id="1">1. Linked List</h2>
-| Onlinejudge    | #	   | Title    | Solution   | Add Date	|   Difficulty |
-|  ----          | ----  |:--------:| :--------: |:--------: |:--------:   |
-|  LintCode      | #35 |  Reverse Linked List/翻转链表  | Java       | 2017/10/6  | Easy ||
+
+
 
 
 ## Soluton (Qusetion No.)
