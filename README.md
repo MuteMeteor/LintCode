@@ -40,7 +40,9 @@ Five tags：array，string，tree，linkedlist，math
 ## DataStructure
 <h2 id="1">1. Linked List</h2>
 
-
+| #	   |     Title    | Solution   | Add Date	|    Difficulty |
+| ---- |       :--------:    | :--------: |:--------: |:--------: |
+| #35	 |  # [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
 
 
 ## Soluton (Qusetion No.)
