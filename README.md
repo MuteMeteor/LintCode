@@ -60,7 +60,7 @@ Five tags：array，string，tree，linkedlist，math
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Two Sum/两数之和](http://www.lintcode.com/en/problem/two-sum/)  | Java       | 2017/10/5   | Easy ||
+| #56	 | [Two Sum/两数之和](http://www.lintcode.com/en/problem/two-sum/)  | Java       | 2017/10/5   | Easy ||
 
 <h2 id="5">5. Stack</h2>
 
