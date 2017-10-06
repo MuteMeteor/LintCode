@@ -1,8 +1,8 @@
 # [LintCode](http://www.lintcode.com)  ![](https://img.shields.io/badge/language-Java-blue.svg) ![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
 
-The First Time: coding by tags
+- The First Time:  coding by tags
 
-The Second Time： coding by the Question No.
+- The Second Time： coding by the Question No.
 
 ## DataStructure/Algorithms
 [1. Linked List](#1)
