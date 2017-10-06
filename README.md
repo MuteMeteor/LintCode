@@ -24,23 +24,24 @@ Five tags：array，string，tree，linkedlist，math
 [10. Binary Search Tree](#10) 
 
 ## Algorithms
-[1. Sort](#1)
+[11. Sort](#1)
 
-[2. Math](#2) 
+[12. Math](#2) 
 
-[3. BitManipulation](#3) 
+[13. BitManipulation](#3) 
 
-[4. Dynamic Programming](#4)
+[14. Dynamic Programming](#4)
 
-[5. Depth-first Search](#5)
+[15. Depth-first Search](#5)
 
-[6. Breadth-first Search](#6)
+[16. Breadth-first Search](#6)
 
 
 ## DataStructure
 <h2 id="1">1. Linked List</h2>
-
-
+| Onlinejudge    | #	   | Title    | Solution   | Add Date	|   Difficulty |
+|  ----          | ----  |:--------:| :--------: |:--------: |:--------:   |
+|  LintCode      | #35 |  Reverse Linked List/翻转链表  | Java       | 2017/10/6  | Easy ||
 
 
 ## Soluton (Qusetion No.)
