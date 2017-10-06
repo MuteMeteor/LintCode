@@ -57,14 +57,14 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | Java       | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/5   | Easy ||
 
 
 <h2 id="2">2. String</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #8	 | [Rotate String/旋转字符串](http://www.lintcode.com/en/problem/rotate-string/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java) | 2017/10/5   | Easy ||
+| #8	 | [Rotate String/旋转字符串](http://www.lintcode.com/en/problem/rotate-string/)  |Java   | 2017/10/5   | Easy ||
 
 <h2 id="3">3. Array</h2>
 
