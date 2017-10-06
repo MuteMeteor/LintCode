@@ -4,26 +4,40 @@ Five tags：array，string，tree，linkedlist，math
 
 ## DataStructure
 [1. Linked List](#1)
-[2. String](#2) 
-[3. Array](#3) 
-[4. Hash Table](#4)
-[5. Stack](#5)
-[6. Queue](#6)
--  
-- Tree
-- Binary Tree
-- Binary Search Tree
 
+[2. String](#2) 
+
+[3. Array](#3) 
+
+[4. Hash Table](#4)
+
+[5. Stack](#5)
+
+[6. Queue](#6)
+
+[7. Tree](#7) 
+
+[8. Tree](#8) 
+
+[9. Binary Tree](#9) 
+
+[10. Binary Search Tree](#10) 
 
 ## Algorithms
-- Sort
-- Math
-- BitManipulation
-- Dynamic Programming
-- Depth-first Search
-- Breadth-first Search
+[1. Sort](#1)
+
+[2. Math](#2) 
+
+[3. BitManipulation](#3) 
+
+[4. Dynamic Programming](#4)
+
+[5. Depth-first Search](#5)
+
+[6. Breadth-first Search](#6)
 
 
+## DataStructure
 <h2 id="1">1. Linked List</h2>
 
 
