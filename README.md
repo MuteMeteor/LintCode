@@ -41,15 +41,9 @@
 
 [11. Sort](#11)
 
-[12. Math](#12) 
+[12. Depth-first Search](#12) 
 
-[13. BitManipulation](#13) 
-
-[14. Dynamic Programming](#14)
-
-[15. Depth-first Search](#15)
-
-[16. Breadth-first Search](#16)
+[13. Breadth-first Search](#13) 
 
 
 ## DataStructure
