@@ -57,7 +57,7 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/5   | Easy ||
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy ||
 
 
 <h2 id="2">2. String</h2>
