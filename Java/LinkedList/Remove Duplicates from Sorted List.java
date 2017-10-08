@@ -1,40 +1,44 @@
 /*
  * Given a sorted linked list, delete all duplicates such that each element appear only once.
-
  * Example
  * Given 1->1->2, return 1->2.
  * Given 1->1->2->3->3, return 1->2->3.
  */
  
+ 
 /**
- * Definition of ListNode
- * class ListNode {
- * public:
+ * Definition for ListNode
+ * public class ListNode {
  *     int val;
- *     ListNode *next;
- *     ListNode(int val) {
- *         this->val = val;
- *         this->next = NULL;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
  *     }
  * }
  */
 
-class Solution {
-public:
+public class Solution {
     /**
-     * @param head: The first node of linked list.
-     * @return: head node
+     * @param  head is the head of the linked list
+     * @return: ListNode head of linked list
      */
-    ListNode *deleteDuplicates(ListNode *head) {
+    public static ListNode deleteDuplicates(ListNode head) {
         // write your code here
-        ListNode *cur = head;
-        while(cur){
-            if(cur->next && cur->val == cur->next->val){
-                cur->next = cur->next->next;
-            }else{
-                cur = cur->next;
+        if(head == null || head.next == null)
+            return head;
+ 
+        ListNode p = head;
+ 
+        while(p.next != null){
+            if(p.val != p.next.val){
+                p = p.next;
+            }
+            else{
+                p.next = p.next.next;
             }
         }
+ 
         return head;
     }
-};
+}
