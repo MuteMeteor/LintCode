@@ -58,9 +58,9 @@
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
 | #35	 | [翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
-| #96	 | [链表划分](http://www.lintcode.com/zh-cn/problem/partition-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
-| #112	 | [删除排序链表中的重复元素 ](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
-| #165	 | [合并两个排序链表](http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #96	 | [链表划分](http://www.lintcode.com/zh-cn/problem/partition-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/096%20Partition%20List.java)      | 2017/10/8   | Easy |
+| #112	 | [删除排序链表中的重复元素 ](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/112%20Remove%20Duplicates%20from%20Sorted%20List.java) | 2017/10/8   | Easy |
+| #165	 | [合并两个排序链表](http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/165%20Merge%20Two%20Sorted%20Lists.java)      | 2017/10/8   | Easy |
 | #166	 | [链表倒数第n个节点](http://www.lintcode.com/zh-cn/problem/nth-to-last-node-in-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
 | #167	 | [链表求和](http://www.lintcode.com/zh-cn/problem/add-two-numbers/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
 | #173	 | [链表插入排序 ](http://www.lintcode.com/zh-cn/problem/insertion-sort-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
