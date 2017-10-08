@@ -1,6 +1,6 @@
 /**
- * ExampleFor 
- * linked list 1->2->3, the reversed linked list is 3->2->1
+ * Example 
+ * For linked list 1->2->3, the reversed linked list is 3->2->1
  */
 
 /**
