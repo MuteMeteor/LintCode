@@ -57,8 +57,15 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy ||
-
+| #35	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #96	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #112	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #165	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #166	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #173	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy |
+| #174	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy ||
+| #372	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy ||
+| #451	 | [Reverse Linked List/翻转链表](http://www.lintcode.com/en/problem/reverse-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/Reverse%20Linked%20List.java)      | 2017/10/8   | Easy ||
 
 <h2 id="2">2. String</h2>
 
