@@ -4,7 +4,7 @@
 
 | 日   |    一     |      二     | 三	       |    四     |   五      |    六     |
 | ---- | :------:  | :--------: |:--------: |:--------: |:--------: |:--------: |
-| ~~8~~    |   9       |    10      |   11      |   12      |   13       |    14    |
+| ~~8~~    |   9       |    ~~10~~      |   ~~11~~      |   12      |   13       |    14    |
 | 15   |   16      |    17      |   18      |   19      |   20       |    21    |
 | 22   |   23      |    24      |   25      |   26      |   27       |    28    |
 | 29   |   30      |    31      |   1       |   2       |   3        |    4     |
@@ -46,7 +46,8 @@
 [13. Breadth-first Search](#13) 
 
 
-## DataStructure
+
+## DataStructure/Algorithms
 <h2 id="1">1. Linked List</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
@@ -62,11 +63,26 @@
 | #372	 | [在O(1)时间复杂度删除链表节点](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
 | #451	 | [两两交换链表中的节点](http://www.lintcode.com/zh-cn/problem/swap-nodes-in-pairs/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/451%20Swap%20Nodes%20in%20Pairs.java)      | 2017/10/8   | Easy ||
 
+
 <h2 id="2">2. String</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #8	 | [Rotate String/旋转字符串](http://www.lintcode.com/en/problem/rotate-string/)  |Java   | 2017/10/5   | Easy ||
+| #8	 | [旋转字符串](http://www.lintcode.com/en/problem/rotate-string/)  |[Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/String/008%20Rotate%20String.java)   | 2017/10/5   | Easy |
+| #13	 | [字符串查找](http://www.lintcode.com/en/problem/strstr/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/String/013%20strStr.java)      | 2017/10/8   | Easy |
+| #53	 | [链表划分](http://www.lintcode.com/zh-cn/problem/partition-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/String/053%20Reverse%20Words%20in%20a%20String.java) | 2017/10/8   | Easy |
+| #55	 | [删除排序链表中的重复元素 ](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/String/055%20Compare%20Strings.java) | 2017/10/8   | Easy |
+| #133	 | [合并两个排序链表](http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/165%20Merge%20Two%20Sorted%20Lists.java)      | 2017/10/8   | Easy |
+| #166	 | [链表倒数第n个节点](http://www.lintcode.com/zh-cn/problem/nth-to-last-node-in-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/166%20Nth%20to%20Last%20Node%20in%20List.java)      | 2017/10/8   | Easy |
+| #157	 | [链表求和](http://www.lintcode.com/zh-cn/problem/add-two-numbers/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/167%20Add%20Two%20Numbers.java)      | 2017/10/8   | Easy |
+| #158	 | [链表插入排序 ](http://www.lintcode.com/zh-cn/problem/insertion-sort-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/173%20Insertion%20Sort%20List%20.java)      | 2017/10/8   | Easy |
+| #211	 | [删除链表中倒数第n个节点](http://www.lintcode.com/zh-cn/problem/remove-nth-node-from-end-of-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/174%20Remove%20Nth%20Node%20From%20End%20of%20List%20.java)      | 2017/10/8   | Easy |
+| #212	 | [在O(1)时间复杂度删除链表节点](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| #418	 | [删除链表中倒数第n个节点](http://www.lintcode.com/zh-cn/problem/remove-nth-node-from-end-of-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/174%20Remove%20Nth%20Node%20From%20End%20of%20List%20.java)      | 2017/10/8   | Easy |
+| #405	 | [在O(1)时间复杂度删除链表节点](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| #420	 | [两两交换链表中的节点](http://www.lintcode.com/zh-cn/problem/swap-nodes-in-pairs/)  | [Java](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/451%20Swap%20Nodes%20in%20Pairs.java)      | 2017/10/8   | Easy ||
+
+
 
 <h2 id="3">3. Array</h2>
 
