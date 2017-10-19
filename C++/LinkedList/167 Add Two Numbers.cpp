@@ -13,59 +13,56 @@
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;      
- *     }
- * }
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
  */
 
-
- public class Solution {
+class Solution {
+public:
     /**
      * @param l1: the first list
      * @param l2: the second list
-     * @return: the sum list of l1 and l2
+     * @return: the sum list of l1 and l2 
      */
-    public ListNode addLists(ListNode l1, ListNode l2) {
+    ListNode *addLists(ListNode *l1, ListNode *l2) {
         // write your code here
-        if(l1 == null)
-            return l2;
-        if(l2 == null)
-            return l1;
- 
-        ListNode fakehead = new ListNode(0);
-        ListNode p = fakehead;
-        ListNode p1 = l1;
-        ListNode p2 = l2;
+        ListNode* pre = new ListNode(-1);
+        ListNode* tmp = pre;
         int carry = 0;
- 
-        while(p1 != null || p2 != null){
-            int num1 = 0;
-            if(p1 != null){
-                num1 = p1.val;
-                p1 = p1.next;
-            }
- 
-            int num2 = 0;
-            if(p2 != null){
-                num2 = p2.val;
-                p2 = p2.next;
-            }
- 
-            int temp = (num1 + num2 + carry) % 10;
-            p.next = new ListNode(temp);
-            p = p.next;
- 
-            carry = (num1 + num2 + carry) / 10;
+        while(l1 && l2){
+            int sum = l1->val + l2->val + carry;
+            tmp->next = new ListNode(sum%10);
+            carry = sum/10;
+            l1 = l1->next;
+            l2 = l2->next;
+            tmp = tmp->next;
         }
- 
-        if(carry == 1)
-            p.next = new ListNode(1);
- 
-        return fakehead.next;
+        
+        while(l1){
+            int sum = l1->val + carry;
+            tmp->next = new ListNode(sum);
+            carry = sum/10;
+            l1 = l1->next;
+            tmp = tmp->next;
+        }
+        
+        while(l2){
+            int sum = l2->val + carry;
+            tmp->next = new ListNode(sum);
+            carry = sum/10;
+            l2 = l2->next;
+            tmp = tmp->next;
+        }
+        
+        if(carry){
+            tmp->next = new ListNode(carry);
+        }
+        
+        tmp = pre->next;
+        delete(pre);
+        return tmp;
     }
-}
+};
