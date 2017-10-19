@@ -6,32 +6,36 @@
  */
 
 /**
- * Definition for ListNode.
- * public class ListNode {
+ * Definition of ListNode
+ * class ListNode {
+ * public:
  *     int val;
- *     ListNode next;
+ *     ListNode *next;
  *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
+ *         this->val = val;
+ *         this->next = NULL;
  *     }
  * }
  */
-
-public class Solution {
+class Solution {
+public:
     /**
-     * @param node: the node in the list should be deleted
+     * @param node: a node in the list should be deleted
      * @return: nothing
      */
-    public void deleteNode(ListNode node) {
+    
+    void deleteNode(ListNode *node) {
         // write your code here
-        while(node.next != null && node.next.next != null){
-            node.val= node.next.val;
-            node = node.next;
+        if (!node)
+            return;
+        ListNode *next = node->next;
+        if (next) {
+            node->val = next->val;
+            node->next = next->next;
+            delete next;
+        } else {
+            delete node;
+            node = NULL;
         }
- 
-        node.val = node.next.val;
-        node.next = null;
- 
-        return;
     }
-}
+};

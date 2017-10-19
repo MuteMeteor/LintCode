@@ -7,40 +7,45 @@
 
 
 /**
- * Definition for ListNode.
- * public class ListNode {
+ * Definition of ListNode
+ * class ListNode {
+ * public:
  *     int val;
- *     ListNode next;
+ *     ListNode *next;
  *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
+ *         this->val = val;
+ *         this->next = NULL;
  *     }
  * }
  */
 
-public class Solution {
+class Solution {
+public:
     /**
      * @param head: The first node of linked list.
      * @param n: An integer.
      * @return: The head of linked list.
      */
-    ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode *removeNthFromEnd(ListNode *head, int n) {
         // write your code here
-        ListNode fakehead = new ListNode(0);
-        fakehead.next = head;
-        ListNode p1 = fakehead;
-        for(int i = 0; i < n + 1; i++)
-            p1 = p1.next;
- 
-        ListNode p2 = fakehead;
- 
-        while(p1 != null){
-            p1 = p1.next;
-            p2 = p2.next;
+        ListNode* prehead = new ListNode(-1);
+        ListNode* slow = prehead;
+        ListNode* fast = head;
+        prehead->next = head;
+        while(n && fast){
+            fast = fast->next;
+            n--;
+        }
+        if(n!=0)
+            return head;
+        while(fast){
+            slow = slow->next;
+            fast = fast->next;
         }
  
-        p2.next = p2.next.next;
- 
-        return fakehead.next;
+        slow->next = slow->next?slow->next->next:NULL;
+        slow = prehead->next;
+        delete prehead;
+        return slow;
     }
-}
+};
