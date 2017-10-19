@@ -9,48 +9,61 @@
 
 
 /**
- * Definition for ListNode.
- * public class ListNode {
+ * Definition of ListNode
+ * class ListNode {
+ * public:
  *     int val;
- *     ListNode next;
+ *     ListNode *next;
  *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
+ *         this->val = val;
+ *         this->next = NULL;
  *     }
  * }
  */
 
-public class Solution {
+
+class Solution {
+public:
     /**
      * @param head: The first node of linked list.
      * @param x: an integer
-     * @return: a ListNode
+     * @return: a ListNode 
      */
-    public ListNode partition(ListNode head, int x) {
+    ListNode *partition(ListNode *head, int x) {
         // write your code here
- 
-        if(head == null || head.next == null)
-            return head;
- 
-        ListNode fakehead1 = new ListNode(0);
-        ListNode fakehead2 = new ListNode(0);
-        ListNode p1 = fakehead1;
-        ListNode p2 = fakehead2;
-        ListNode p = head;
- 
-        while(p != null){
-            if(p.val < x){
-                p1.next = new ListNode(p.val);
-                p1 = p1.next;
+        ListNode* l_h = NULL;
+        ListNode* l_t = NULL;
+        ListNode* g_h = NULL;
+        ListNode* g_t = NULL;
+        
+        while(head){
+            if(head->val < x){
+                if(!l_h){
+                    l_h = head;
+                    l_t = l_h;
+                }else{
+                    l_t->next = head;
+                    l_t = l_t->next;
+                }
+            }else{
+                if(!g_h){
+                    g_h = head;
+                    g_t = g_h;
+               }else{
+                   g_t->next = head;
+                   g_t = g_t->next;
+               }
             }
-            else{
-                p2.next = new ListNode(p.val);
-                p2 = p2.next;
-            }
-            p = p.next;
+            head = head->next;
         }
-        p1.next = fakehead2.next;
  
-        return fakehead1.next;
+        if(l_h){
+            l_t->next = g_h;
+        }else{
+            l_h = g_h;
+        }
+        if(g_t)
+            g_t->next = NULL;
+        return l_h;
     }
-}
+};
