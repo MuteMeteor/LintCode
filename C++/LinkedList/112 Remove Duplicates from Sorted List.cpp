@@ -5,40 +5,36 @@
  * Given 1->1->2->3->3, return 1->2->3.
  */
  
- 
+
 /**
- * Definition for ListNode
- * public class ListNode {
+ * Definition of ListNode
+ * class ListNode {
+ * public:
  *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
+ *     ListNode *next;
+ *     ListNode(int val) {
+ *         this->val = val;
+ *         this->next = NULL;
  *     }
  * }
  */
 
-public class Solution {
+class Solution {
+public:
     /**
-     * @param  head is the head of the linked list
-     * @return: ListNode head of linked list
+     * @param head: The first node of linked list.
+     * @return: head node
      */
-    public static ListNode deleteDuplicates(ListNode head) {
+    ListNode *deleteDuplicates(ListNode *head) {
         // write your code here
-        if(head == null || head.next == null)
-            return head;
- 
-        ListNode p = head;
- 
-        while(p.next != null){
-            if(p.val != p.next.val){
-                p = p.next;
-            }
-            else{
-                p.next = p.next.next;
+        ListNode *cur = head;
+        while(cur){
+            if(cur->next && cur->val == cur->next->val){
+                cur->next = cur->next->next;
+            }else{
+                cur = cur->next;
             }
         }
- 
         return head;
     }
-}
+};
