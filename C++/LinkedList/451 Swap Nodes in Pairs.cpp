@@ -6,45 +6,35 @@
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
  */
 
- public class Solution {
+class Solution {
+public:
     /**
      * @param head a ListNode
      * @return a ListNode
      */
-    public ListNode swapPairs(ListNode head) {
+    ListNode* swapPairs(ListNode* head) {
         // Write your code here
-        if(head == null || head.next == null)
-            return head;
- 
-        ListNode fakehead = new ListNode(0);
-        fakehead.next = head;
- 
-        ListNode prev = head;
-        ListNode curr = head.next;
-        ListNode next = head.next.next;
-        ListNode p = fakehead;
- 
-        while(next != null && next.next != null){
-            prev.next = next;
-            curr.next = prev;
-            p.next = curr;
-            p = p.next.next;
-            prev = next;
-            curr = next.next;
-            next = curr.next;
+        ListNode *cur = head, *next = NULL;
+        ListNode *dummy = new ListNode(-1);
+        ListNode *tail = dummy;
+        while (cur && cur->next) {
+            next = cur->next->next;
+            tail->next = cur->next;
+            tail = tail->next;
+            tail->next = cur;
+            tail = tail->next;
+            cur = next;
         }
- 
-        prev.next = next;
-        curr.next = prev;
-        p.next = curr;
- 
-        return fakehead.next;
+        tail->next = cur;
+        tail = dummy->next;
+        delete dummy;
+        return tail;
     }
-}
+};
