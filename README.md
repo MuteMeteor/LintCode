@@ -1,4 +1,4 @@
-# [LintCode](http://www.lintcode.com)  ![](https://img.shields.io/badge/language-Java-blue.svg) ![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
+# [LintCode](http://www.lintcode.com)  ![](https://img.shields.io/badge/language-C++-purple.svg) ![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
 
 - The First Time:  coding by tags （clock out from Oct.8/2017 - 10 weeks）
 
