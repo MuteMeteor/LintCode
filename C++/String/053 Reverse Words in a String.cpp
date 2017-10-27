@@ -5,40 +5,38 @@
  * return "blue is sky the".
  */
 
-public class Solution {
+class Solution {
+public:
     /**
      * @param s : A string
      * @return : A string
      */
-    public String reverseWords(String s) {
-        // write your code
-        if(s == null || s.length() == 0)
-            return s;
- 
-        s = s.trim();
- 
-        if(s.length() == 0)
-            return "";
- 
-        StringBuilder res = new StringBuilder();
- 
-        int start = 0;
-        int end = 0;
-        while(end < s.length()){
-            while(end < s.length() && s.charAt(end) != ' ')
-                end++;
-            res.insert(0, s.substring(start, end));
-            res.insert(0, ' ');
- 
-            if(end == s.length())
-                break;
- 
-            while(end < s.length() && s.charAt(end) == ' ')
-                end++;
- 
-            start = end;
+    string reverseWords(string s) {
+        // write your code here
+        string res;
+        stack<char> stk;
+        int sz = s.length();
+        for(int i = sz -1; i>=0; i--){
+            char c = s[i];
+            if(c == ' '){
+                if(!stk.empty()){
+                    while(!stk.empty()){
+                        res.push_back(stk.top());
+                        stk.pop();
+                    }
+                    res.push_back(c);
+                }
+            }else{
+                stk.push(c);
+            }
         }
- 
-        return res.substring(1);
+        while(!stk.empty()){
+            if(stk.top()!= ' ')
+                res.push_back(stk.top());
+            stk.pop();
+        }
+        if(res.back() == ' ')
+            res.pop_back();
+        return res;
     }
-}
+};
