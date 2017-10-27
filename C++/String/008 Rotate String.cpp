@@ -8,31 +8,26 @@
  * offset=3 => "efgabcd"
  */
 
-public class Solution {
-    /**
-     * @param str: an array of char
-     * @param offset: an integer
-     * @return: nothing
+class Solution {
+public:
+  /**
+     * param A: A string
+     * param offset: Rotate string with offset.
+     * return: Rotated string.
      */
-    public void rotateString(char[] str, int offset) {
-        // write your code here
-        if (offset == 0 || str == null || str.length == 0) {
-            return;
+    string rotateString(string A, int offset) {
+        // wirte your code here
+        string s;
+        int sz = A.length();
+        if(sz == 0)
+            return A;
+        offset = offset%sz;
+        for(int i = sz- offset; i<sz; i++){
+            s.push_back(A[i]);
         }
-        offset = offset % str.length;
-        swap(str, 0, str.length - 1);
-        swap(str, 0, offset - 1);
-        swap(str, offset, str.length - 1);
-        return;
-    }
-    private void swap(char[] str, int start, int end) {
-        while (start < end) {
-            char temp = str[start];
-            str[start] = str[end];
-            str[end] = temp;
-            start++;
-            end--;
+        for(int i =0; i<sz-offset; i++){
+            s.push_back(A[i]);
         }
-        return;
+        return s;
     }
-}
+};
