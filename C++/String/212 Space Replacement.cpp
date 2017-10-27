@@ -9,36 +9,30 @@
  */
 
 
-public class Solution {
+class Solution {
+public:
     /**
      * @param string: An array of Char
      * @param length: The true length of the string
      * @return: The true length of new string
      */
-    public int replaceBlank(char[] string, int length) {
+    int replaceBlank(char string[], int length) {
         // Write your code here
- 
-        int count = 0;
- 
-        for(int i = 0; i < length; i++){
-            if(string[i] == ' ')
-                count++;
-        }
- 
-        int res = length + count * 2;
-        int j = res - 1;
- 
-        for(int i = length - 1; i >= 0; i--){
-            if(string[i] != ' '){
-                string[j--] = string[i];
-            }
-            else{
-                string[j--] = '0';
-                string[j--] = '2';
-                string[j--] = '%';
+        int blank_num = 0;
+        for (int i = 0; i < length; i++)
+            blank_num += (string[i] == ' ');
+        int i = length - 1;
+        int j = length + blank_num * 2 - 1;
+        while (i >= 0) {
+            if (string[i--] == ' ') {
+                string[j - 2] = '%';
+                string[j - 1] = '2';
+                string[j] = '0';
+                j -= 3;
+            } else {
+                string[j--] = string[i + 1];
             }
         }
- 
-        return res;
+        return length + blank_num * 2;
     }
-}
+}; 
