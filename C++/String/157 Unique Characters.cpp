@@ -5,24 +5,22 @@
  * Given "aab", return false.
  */
 
-public class Solution {
+class Solution {
+public:
     /**
      * @param str: a string
      * @return: a boolean
      */
-    public boolean isUnique(String str) {
+    bool isUnique(string &str) {
         // write your code here
-        if(str == null || str.length() <= 1)
-            return true;
- 
-        int[] count = new int[128];
- 
-        for(int i = 0; i < str.length(); i++){
-            count[str.charAt(i)]++;
-            if(count[str.charAt(i)] > 1)
+        int m[256];
+        memset(m, 0, sizeof(int)*256);
+        
+        for(char c : str){
+            m[c]++;
+            if(m[c]>1)
                 return false;
         }
- 
         return true;
     }
-}
+};
