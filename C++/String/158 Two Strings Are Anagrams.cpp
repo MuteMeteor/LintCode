@@ -8,30 +8,27 @@
  * Given s = "ab", t = "ac", return false.
  */
 
-public class Solution {
+class Solution {
+public:
     /**
-     * @param : The first string
-     * @param : The second string
+     * @param s: The first string
+     * @param b: The second string
      * @return true or false
      */
-    public boolean anagram(String s, String t) {
+    bool anagram(string s, string t) {
         // write your code here
-        if(s == null && t == null)
-            return true;
-        if(s == null || t == null)
-            return false;
- 
-        int[] count = new int[128];
- 
-        for(int i = 0; i < s.length(); i++)
-            count[s.charAt(i)]++;
-        for(int i = 0; i < t.length(); i++)
-            count[t.charAt(i)]--;
- 
-        for(int i = 0; i < 128; i++)
-            if(count[i] != 0)
+        int mp[256];
+        memset(mp, 0, sizeof(int)*256);
+        for(auto e : s){
+            mp[e]++;
+        }
+        for(auto e : t){
+            mp[e]--;
+        }
+        for(int i = 0; i < 256; i++){
+            if(mp[i] != 0)
                 return false;
- 
+        }
         return true;
     }
-}
+};
