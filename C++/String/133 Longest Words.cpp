@@ -22,30 +22,20 @@
  */
 
 class Solution {
+public:
     /**
-     * @param dictionary: an array of strings
-     * @return: an arraylist of strings
+     * @param dictionary: a vector of strings
+     * @return: a vector of strings
      */
-    ArrayList<String> longestWords(String[] dictionary) {
+    vector<string> longestWords(vector<string> &dictionary) {
         // write your code here
-        ArrayList<String> res = new ArrayList<String>();
- 
-        if(dictionary == null || dictionary.length == 0)
-            return res;
- 
-        int max = 0;
- 
-        for(String s: dictionary){
-            if(s.length() > max){
-                max = s.length();
+        vector<string> res;
+        for (auto w : dictionary) {
+            if (res.size() && w.length() > res.back().length())
                 res.clear();
-                res.add(s);
-            }
-            else if(s.length() == max){
-                res.add(s);
-            }
+            if (res.empty() || w.length() == res.back().length())
+                res.push_back(w);
         }
- 
         return res;
     }
 };
