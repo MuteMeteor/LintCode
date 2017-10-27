@@ -8,35 +8,31 @@
  */
 
 class Solution {
+public:
     /**
      * Returns a index to the first occurrence of target in source,
      * or -1  if target is not part of source.
      * @param source string to be scanned.
      * @param target string containing the sequence of characters to match.
      */
-    public int strStr(String source, String target) {
+    int strStr(const char *source, const char *target) {
         // write your code here
- 
-        if(source == null || target == null)
+        if(source == NULL || target == NULL)
             return -1;
- 
-        if(source.equals(target))
+        if(target[0] == '\0')
             return 0;
- 
-        if(source.length() < target.length())
-            return -1;
- 
-        for(int i = 0; i <= source.length() - target.length(); i++){
-            int j = 0;
-            for(; j < target.length(); j++){
-                if(target.charAt(j) != source.charAt(i + j))
-                    break;
+        int start = 0;
+        while( source[start] != '\0'){
+            int t = 0;
+            int s = 0;
+            while(source[start+s] != '\0' && target[t] != '\0' && source[start+s] == target[t]){
+                s++;
+                t++;
             }
- 
-            if(j == target.length())
-                return i;
+            if(target[t] == '\0')
+                return start;
+            start++;
         }
- 
         return -1;
     }
-}
+};
