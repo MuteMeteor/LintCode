@@ -13,7 +13,7 @@
 
 [6. Queue](#6)
 
-[7. Heap](#7) 
+[7. Sort](#7) 
 
 [8. Tree](#8) 
 
@@ -21,11 +21,10 @@
 
 [10. Binary Search Tree](#10) 
 
-[11. Sort](#11)
+[11. Depth-first Search](#11)
 
-[12. Depth-first Search](#12) 
+[12. Breadth-first Search](#12) 
 
-[13. Breadth-first Search](#13) 
 
 
 
