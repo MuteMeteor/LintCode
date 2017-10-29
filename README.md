@@ -112,7 +112,19 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+| 005 | [Kth Largest Element](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp  | 2017/10/5   | Easy |
+| 031	 | [Partition Array](http://www.lintcode.com/en/problem/partition-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/096%20Partition%20List.java)  | 2017/10/8   | Easy |
+| 049	 | [Sort Letters by Case](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/112%20Remove%20Duplicates%20from%20Sorted%20List.java) | 2017/10/8   | Easy |
+| 057	 | [3Sum](http://www.lintcode.com/en/problem/merge-two-sorted-lists/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/165%20Merge%20Two%20Sorted%20Lists.java)      | 2017/10/8   | Easy |
+| 058	 | [4Sum](http://www.lintcode.com/en/problem/nth-to-last-node-in-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/166%20Nth%20to%20Last%20Node%20in%20List.java)      | 2017/10/8   | Easy |
+| 059	 | [3Sum Closest](http://www.lintcode.com/zh-cn/problem/add-two-numbers/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/167%20Add%20Two%20Numbers.java)      | 2017/10/8   | Easy |
+| 139	 | [Subarray Sum Closest](http://www.lintcode.com/zh-cn/problem/insertion-sort-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/173%20Insertion%20Sort%20List%20.java)      | 2017/10/8   | Easy |
+| 156	 | [Merge Intervals](http://www.lintcode.com/en/problem/remove-nth-node-from-end-of-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/174%20Remove%20Nth%20Node%20From%20End%20of%20List%20.java)      | 2017/10/8   | Easy |
+| 173	 | [Insertion Sort List](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| 463	 | [Sort Integers](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| 464	 | [Sort Integers II](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| 547	 | [Intersection of Two Arrays](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
+| 548	 | [Intersection of Two Arrays II](http://www.lintcode.com/en/problem/swap-nodes-in-pairs/)  |  [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/451%20Swap%20Nodes%20in%20Pairs.java)      | 2017/10/8   | Easy ||
 
 <h2 id="8">8. Tree</h2>
 
