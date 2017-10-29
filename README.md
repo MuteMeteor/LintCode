@@ -124,3 +124,8 @@
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
 | #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+
+
+<table style="border:2px dotted gray;"><tr><td>
+| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+</td></dr></table>
