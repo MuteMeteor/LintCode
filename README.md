@@ -83,19 +83,30 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #56	 | [Two Sum/两数之和](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy ||
+| 128	 | [Hash Function](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 138	 | [Subarray Sum](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 488	 | [Happy Number](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 547	 | [Intersection of Two Arrays](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 548	 | [Intersection of Two Arrays II](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy ||
 
 <h2 id="5">5. Stack</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #227	 | [Mock Hanoi Tower by Stacks/	用栈模拟汉诺塔问题](http://www.lintcode.com/en/problem/mock-hanoi-tower-by-stacks/)  | cpp       | 2017/10/5   | Easy ||
+| 012	 | [Min Stack](http://www.lintcode.com/en/problem/mock-hanoi-tower-by-stacks/)  | cpp       | 2017/10/5   | Easy |
+| 040	 | [Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 227	 | [Mock Hanoi Tower by Stacks](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 421	 | [Simplify Path](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 423	 | [Valid Parentheses](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
+| 424	 | [Evaluate Reverse Polish Notation](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy ||
 
 <h2 id="6">6. Queue</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+| 069	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 070	 | [Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 071	 | [Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
 <h2 id="7">7. Sort</h2>
 
