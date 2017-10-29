@@ -1,5 +1,7 @@
 /*
-	Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
+	Given a binary tree, 
+	return the bottom-up level order traversal of its nodes' values. 
+	(ie, from left to right, level by level from leaf to root).
 
 
 	Example
@@ -28,21 +30,19 @@
  
 class Solution {
     /**
-     * @param root: The root of binary tree.
-     * @return: Level order a list of lists of integer
+     * @param root : The root of binary tree.
+     * @return : buttom-up level order a list of lists of integer
      */
 public:
-    vector<vector<int>> levelOrder(TreeNode *root) {
+    vector<vector<int>> levelOrderButtom(TreeNode *root) {
         // write your code here
         queue<TreeNode*> q;
         vector<vector<int>> res;
         vector<int> level;
         if(!root)
             return res;
-        
         q.push(root);
         q.push(NULL);
-        
         while(q.size()){
             TreeNode* t = q.front();
             q.pop();
@@ -53,7 +53,7 @@ public:
                 if(t->right)
                     q.push(t->right);
             }else{
-                res.push_back(level);
+                res.insert(res.begin(), level);
                 level.clear();
                 if(q.size())
                     q.push(NULL);
