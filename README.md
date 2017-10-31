@@ -11,19 +11,15 @@
 
 [5. Stack](#5)
 
-[6. Queue](#6)
+[6. Sort](#6) 
 
-[7. Sort](#7) 
+[7. Binary Tree](#7) 
 
-[8. Tree](#8) 
+[8. Binary Search Tree](#8) 
 
-[9. Binary Tree](#9) 
+[9. Depth-first Search](#9)
 
-[10. Binary Search Tree](#10) 
-
-[11. Depth-first Search](#11)
-
-[12. Breadth-first Search](#12) 
+[10. Breadth-first Search](#10) 
 
 
 
@@ -100,15 +96,8 @@
 | 423	 | [Valid Parentheses](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy |
 | 424	 | [Evaluate Reverse Polish Notation](http://www.lintcode.com/en/problem/two-sum/)  | cpp  | 2017/10/5   | Easy ||
 
-<h2 id="6">6. Queue</h2>
 
-| #	   |     Title    | Solution   | Add Date	|    Difficulty |
-| ---- |       :--------:    | :--------: |:--------: |:--------: |
-| 069	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
-| 070	 | [Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
-| 071	 | [Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
-
-<h2 id="7">7. Sort</h2>
+<h2 id="6">6. Sort</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
@@ -126,35 +115,34 @@
 | 547	 | [Intersection of Two Arrays](http://www.lintcode.com/zh-cn/problem/delete-node-in-the-middle-of-singly-linked-list/)  | [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/372%20Delete%20Node%20in%20the%20Middle%20of%20Singly%20Linked%20List.java)  | 2017/10/8   | Easy |
 | 548	 | [Intersection of Two Arrays II](http://www.lintcode.com/en/problem/swap-nodes-in-pairs/)  |  [cpp](https://github.com/MuteMeteor/LintCode/blob/master/Java/LinkedList/451%20Swap%20Nodes%20in%20Pairs.java)      | 2017/10/8   | Easy ||
 
-<h2 id="8">8. Tree</h2>
+
+<h2 id="7">7. Binary Tree</h2>
+
+| #	   |     Title    | Solution   | Add Date	|    Difficulty |
+| ---- |       :--------:    | :--------: |:--------: |:--------: |
+| 069	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 070	 | [Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 071	 | [Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+
+<h2 id="8">8. Binary Search Tree</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
 | #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
-<h2 id="9">9. Binary Tree</h2>
+<h2 id="9">9. Depth-first Search</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
 | #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
-<h2 id="10">10. Binary Search Tree</h2>
+<h2 id="10">10. Breadth-first Search</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
-
-<h2 id="11">11. Depth-first Search</h2>
-
-| #	   |     Title    | Solution   | Add Date	|    Difficulty |
-| ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
-
-<h2 id="12">12. Breadth-first Search</h2>
-
-| #	   |     Title    | Solution   | Add Date	|    Difficulty |
-| ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+| 069	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 070	 | [Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
+| 071	 | [Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
 
 
