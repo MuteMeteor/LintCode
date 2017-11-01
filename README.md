@@ -128,13 +128,13 @@
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+| #69	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
 <h2 id="9">9. Depth-first Search</h2>
 
 | #	   |     Title    | Solution   | Add Date	|    Difficulty |
 | ---- |       :--------:    | :--------: |:--------: |:--------: |
-| #69	 | [Binary Tree Level Order Traversal/二叉树的层次遍历](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
+| #69	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
 
 <h2 id="10">10. Breadth-first Search</h2>
 
