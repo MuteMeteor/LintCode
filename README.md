@@ -1,5 +1,6 @@
 # [LintCode](http://www.lintcode.com)  ![](https://img.shields.io/badge/language-C++-purple.svg) ![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
 
+
 ## DataStructure/Algorithms
 [1. Linked List](#1)
 
@@ -143,6 +144,5 @@
 | 069	 | [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
 | 070	 | [Binary Tree Level Order Traversal II](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy |
 | 071	 | [Binary Tree Zigzag Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/)  | cpp      | 2017/10/5   | Easy ||
-
 
 
